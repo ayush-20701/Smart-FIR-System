@@ -53,14 +53,16 @@ BACKEND
 FRONTEND
 -----------------
 - FIR Form Structure
- - Name
- - Address
- - Body
- - Upload handwritten FIR
-   - Must be approved by Gemini
-   - Both body and upload section can't be empty
- - Incident Location
-   - Longitude and Latitude (fetched automatically from GPS or selected from map)
-   - Address (Entered manually)
-   - Either of the above fields is mandatory
- - 
+	 - Name
+	 - Email
+	 - Address
+	 - Body
+	 - Upload handwritten FIR
+	   - Must be approved by Gemini
+	   - Both body and upload section can't be empty
+	 - Incident Location
+	   - Longitude and Latitude (auto fetched from GPS or selected from map)
+	   - Address (Entered manually)
+	   - Either of the above fields is mandatory
+	 - Time & Date (auto fetched from FIR or entered manually)
+-----------------------
