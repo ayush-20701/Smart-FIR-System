@@ -1,7 +1,7 @@
 -------------------
 DB Collections
 -------------------
-⦁	User (Citizen)
+- User (Citizen)
 	- userId (PK)
     - aadharNo
 	- phone
@@ -12,7 +12,7 @@ DB Collections
 	- rank
 	- station
 	- casesAssigned (Cases assigned to that IO)
-⦁	FIRs
+- FIRs
 	- firId (PK)
 	- userId
 	- category      (robbery/theft/assault etc.) 
