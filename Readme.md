@@ -38,14 +38,17 @@ DB Collections
 ------------------
 BACKEND
 ------------------
-Public Routes
-- POST /auth/enterNo (for sending otp while login/signup)
-- POST /auth/verify (verification of OTP)
-- POST /firs/new    (submit new FIR)
-- GET /firs/:userId (All FIRs registered by that citizen)
+- Public Routes
+	- POST /auth/enterNo (for sending otp while login/signup)
+	- POST /auth/verify (verification of OTP)
+	- POST /firs/new    (submit new FIR)
+	- GET /firs/:userId (All FIRs registered by that citizen)
 
-Protected Routes
-- GET /adm/firs/all (fetch all FIRs)
-- PATCH /adm/firs/:firId/assign     (Assign FIR to an IO)
-- PATCH /adm/firs/:firId/status     (Update case status)
-- PATCH /adm/firs/:firId/remarks    (Add remarks)
+- Protected Routes
+	- GET /adm/firs/all (fetch all FIRs)
+	- PATCH /adm/firs/:firId/assign     (Assign FIR to an IO)
+	- PATCH /adm/firs/:firId/status     (Update case status)
+	- PATCH /adm/firs/:firId/remarks    (Add remarks)
+-----------------
+FRONTEND
+-----------------
